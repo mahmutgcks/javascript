@@ -188,4 +188,4 @@ console.log(abMemur2)
 console.log(abMemur2["3"])
 //bu şekilde array içerisindeki değişken seçilebilir
 // örneğin arrayin 3. öğesi bir parametre
-
+var art = 1
