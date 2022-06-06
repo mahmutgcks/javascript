@@ -188,4 +188,23 @@ console.log(abMemur2)
 console.log(abMemur2["3"])
 //bu şekilde array içerisindeki değişken seçilebilir
 // örneğin arrayin 3. öğesi bir parametre
-var art = 1
+
+let kullanıcı = []
+kullanıcı[0] = {id:1, name:"mahmut", lastname:"gecekusu"}
+kullanıcı[1] = {id:2, name:"merve", lastname:"uzun"}
+kullanıcı[2] = {id:3, name:"mürşide", lastname:"gecekuşu"}
+function kullanıcıListesi(kullanıcı) {
+    for (let i = 0; i < kullanıcı.length; i++) {
+        const element = kullanıcı[i];
+        if (element.id == 1) {
+            console.log(element.name+" "+element.lastname+" başarılı")
+            
+        } else {
+            console.log(element.name+" "+element.lastname+" başarısız")
+            
+        }
+    }
+    
+}
+kullanıcıListesi(kullanıcı)
+
