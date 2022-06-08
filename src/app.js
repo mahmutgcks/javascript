@@ -103,9 +103,9 @@ for (let i = 0; i < array.length; i++) {
 
 let ogrenci = {id: 1, name: "Mahmut", lastName: "Gecekusu"}
 console.log(ogrenci)
-// burada ogrenci değişkenine id parametmesi atadık ve değerini 1 yaptık. name parametresi atadık ve değeri gecekusu
+// burada ogrenci değişkenine id OBJESİ atadık ve değerini 1 yaptık. name OBJESİ atadık ve değeri gecekusu
 // istediğimiz kadar parametre atayabilirz. her parametre isminin sonunda iki nokto üst üste konur ve parametre değeri girilir
-// parametreli değişkenleri yazıdırınca sırasıyla parametre ve değerleri cıktı alınır.
+// objeli değişkenleri yazıdırınca sırasıyla obje ve değerleri cıktı alınır.
 
 
 
@@ -181,7 +181,7 @@ console.log(abMemur)
 let abMemur2 = [abMemur,{id:2, name:"Süleyman", lastName:"Akgül"}, "Elazığ T Tipi Kapalı Ceza ve İnfaz Kurumu", {city:"Elazığ"}]
 console.log(abMemur2)
 //array içerisinde array tanımlanabilirç
-//array içerisinde paramete tanımlanadblir
+//array içerisinde OBJE tanımlanadblir
 //array içerisine string tanımlanabilir
 
 
@@ -207,4 +207,10 @@ function kullanıcıListesi(kullanıcı) {
     
 }
 kullanıcıListesi(kullanıcı)
+
+
+
+
+
+
 
